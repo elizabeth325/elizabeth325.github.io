@@ -1,0 +1,12 @@
+body{
+	padding: 0% 10%;
+}
+header{
+	text-align: center;
+}
+#nav-bar {
+	width: 60%;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
