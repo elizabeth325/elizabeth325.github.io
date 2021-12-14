@@ -11,3 +11,11 @@
 		margin-left: -200%;
 	}
 }
+footer > a {
+  transition-property: color;
+  transition-duration: 1.5s;
+}
+
+footer > a:hover {
+  color: green;
+}
