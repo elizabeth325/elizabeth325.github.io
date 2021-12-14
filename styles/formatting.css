@@ -13,11 +13,43 @@ header{
 .intro {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
 	width: 100%;
 }
 #image{
 	grid-column-start: 1;
+	grid-row-start: 1;
 }
-#intro {
+div > p{
 	grid-column-start: 2;
+	grid-row-start: 1;
+	padding: 10%;
+}
+.welsh {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	width: 100%;
+}
+dt {
+	font-size: 1.25em;
+}
+.text-links:nth-of-type(1){
+	text-align:center;
+}
+dt + dd {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+br ~ p {
+	font-size: 1.1em;
+}
+br ~ span {
+	font-size: .8em;
+}
+h1, p {
+	font-family:Papyrus,fantasy;
+}
+main + footer {
+	font-size: .8em;
 }
