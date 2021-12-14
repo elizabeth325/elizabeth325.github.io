@@ -4,11 +4,6 @@ body{
 header{
 	text-align: center;
 }
-#nav-bar {
-	border: 1px solid black;
-	margin-left: auto;
-	margin-right: auto;
-}
 dt {
 	font-size: 1.25em;
 }
@@ -31,6 +26,9 @@ h1, p {
 main + footer {
 	font-size: .8em;
 }
+dd, span, a {
+	font-family: courier new, monospace;
+}
 @media only screen and (min-width: 769px) {
 	.intro {
 		display: grid;
@@ -49,15 +47,57 @@ main + footer {
 	}
 	#nav-bar{
 		width: 60%;
+		border: 1px solid black;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media only screen and (min-width: 481px) {
 	#nav-bar {
 		width: 80%;
+		border: 1px solid black;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.intro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		width: 100%;
+	}
+	#image{
+		grid-column-start: 1;
+		grid-row-start: 1;
+	}
+	div > p{
+		grid-column-start: 2;
+		grid-row-start: 1;
+		padding: 10%;
 	}
 }
 @media only screen and (max-width: 480px) {
-	#nav-bar {
+	tr{
 		width: 100%;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
+	td:first-child {
+		flex-grow: 2;
+		flex-shrink: 3;
+		flex-basis: auto;
+	}
+	td:nth-of-type(2){
+		flex-grow: 3;
+		flex-shrink: 2;
+		flex-basis: auto;
+	}
+	td:nth-of-type(3){
+		flex-grow: 2;
+		flex-shrink: 3;
+		flex-basis: auto;
+	}
+	
 }
