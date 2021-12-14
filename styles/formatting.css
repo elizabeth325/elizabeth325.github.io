@@ -5,31 +5,9 @@ header{
 	text-align: center;
 }
 #nav-bar {
-	width: 60%;
 	border: 1px solid black;
 	margin-left: auto;
 	margin-right: auto;
-}
-.intro {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-	width: 100%;
-}
-#image{
-	grid-column-start: 1;
-	grid-row-start: 1;
-}
-div > p{
-	grid-column-start: 2;
-	grid-row-start: 1;
-	padding: 10%;
-}
-.welsh {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	width: 100%;
 }
 dt {
 	font-size: 1.25em;
@@ -52,4 +30,34 @@ h1, p {
 }
 main + footer {
 	font-size: .8em;
+}
+@media only screen and (min-width: 769px) {
+	.intro {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		width: 100%;
+	}
+	#image{
+		grid-column-start: 1;
+		grid-row-start: 1;
+	}
+	div > p{
+		grid-column-start: 2;
+		grid-row-start: 1;
+		padding: 10%;
+	}
+	#nav-bar{
+		width: 60%;
+	}
+}
+@media only screen and (min-width: 481px) {
+	#nav-bar {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#nav-bar {
+		width: 100%;
+	}
 }
