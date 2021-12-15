@@ -29,6 +29,12 @@ main + footer {
 dd, span, a {
 	font-family: courier new, monospace;
 }
+main > p {
+	text-align: center;
+}
+h1 {
+	font-size: 2.5em;
+}
 @media only screen and (min-width: 769px) {
 	.intro {
 		display: grid;
