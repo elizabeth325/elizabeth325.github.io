@@ -38,13 +38,13 @@ My Software Design and Engineering Artifact:
 
 My Algorithms and Data Structures Artifact:
 
-[Enhancement 2](https://github.com/elizabeth325/elizabeth325.github.io/tree/2434470deddcfb0575f2fcc59a70ba5a2a866629/Algorithms%20and%20Data%20Structures%20Enhancement)
+[Enhancement #2](https://github.com/elizabeth325/elizabeth325.github.io/tree/2434470deddcfb0575f2fcc59a70ba5a2a866629/Algorithms%20and%20Data%20Structures%20Enhancement)
 
 ## Databases
 
 My Databases Artifact:
 
-[Enhancement 3](https://github.com/elizabeth325/elizabeth325.github.io/tree/2434470deddcfb0575f2fcc59a70ba5a2a866629/Database%20Enhancement)
+[Enhancement #3](https://github.com/elizabeth325/elizabeth325.github.io/tree/2434470deddcfb0575f2fcc59a70ba5a2a866629/Database%20Enhancement)
 
 # Narratives
 
