@@ -1,5 +1,6 @@
 ---
 layout: default
+title: SNHU CS-499 Capstone Project
 ---
 
 # Professional Self-Assessment
